@@ -241,12 +241,12 @@ function_definitions_llm = [
             "properties": {
                 "filename": {
                     "type": "string",
-                    "pattern": r".*/(.*\.txt)",
+                    "pattern": r"./(.\.txt)",
                     "default": "/data/comments.txt"
                 },
                 "output_filename": {
                     "type": "string",
-                    "pattern": r".*/(.*\.txt)",
+                    "pattern": r"./(.\.txt)",
                     "default": "/data/comments-similar.txt"
                 }
             },
